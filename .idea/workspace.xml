@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ee78bb0-61f1-4922-ad2a-6874bf1efbf3" name="Changes" comment="new questions, new format">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="1ee78bb0-61f1-4922-ad2a-6874bf1efbf3" name="Changes" comment="Fix linting issues in main.py">
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,13 +89,22 @@
       <option name="project" value="LOCAL" />
       <updated>1731210618242</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Fix linting issues in main.py">
+      <option name="closed" value="true" />
+      <created>1731211218411</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1731211218411</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init commit" />
     <MESSAGE value="Refactoring module main.py" />
     <MESSAGE value="new questions, new format" />
-    <option name="LAST_COMMIT_MESSAGE" value="new questions, new format" />
+    <MESSAGE value="Fix linting issues in main.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix linting issues in main.py" />
   </component>
 </project>
