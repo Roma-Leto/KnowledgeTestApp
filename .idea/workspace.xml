@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ee78bb0-61f1-4922-ad2a-6874bf1efbf3" name="Changes" comment="init commit">
-      <change afterPath="$PROJECT_DIR$/questions2.txt" afterDir="false" />
+    <list default="true" id="1ee78bb0-61f1-4922-ad2a-6874bf1efbf3" name="Changes" comment="new questions, new format">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/questions.txt" beforeDir="false" afterPath="$PROJECT_DIR$/questions.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,11 +74,29 @@
       <option name="project" value="LOCAL" />
       <updated>1731205416069</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Refactoring module main.py">
+      <option name="closed" value="true" />
+      <created>1731210592320</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1731210592320</updated>
+    </task>
+    <task id="LOCAL-00003" summary="new questions, new format">
+      <option name="closed" value="true" />
+      <created>1731210618242</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1731210618242</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="init commit" />
+    <MESSAGE value="Refactoring module main.py" />
+    <MESSAGE value="new questions, new format" />
+    <option name="LAST_COMMIT_MESSAGE" value="new questions, new format" />
   </component>
 </project>

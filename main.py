@@ -1,18 +1,24 @@
 import random
 
-def load_questions(file_path):
+# Путь к файлу с вопросами
+FILE_PATH = 'questions2.txt'
+
+
+def load_questions(file):
     """
     Загружает вопросы и ответы из файла.
     Файл должен быть в формате:
-    Вопрос $вариант ответа $Вариант ответа $@Вариант правильного ответа $Вариант ответа $Вариант ответа
+    Вопрос $вариант ответа $Вариант ответа $@Вариант правильного ответа
+    $Вариант ответа $Вариант ответа
     """
     questions = []
     questions_list = []
 
     # Открываем файл и читаем его
-    with open(file_path, 'r', encoding='utf-8') as file:
-        for list_item in file:
-            questions_list.append(list_item.strip())  # Очищаем строки от лишних пробелов
+    with open(file, 'r', encoding='utf-8') as qfile:
+        for list_item in qfile:
+            questions_list.append(
+                list_item.strip())  # Очищаем строки от лишних пробелов
 
     # Проверим содержимое файла
     if not questions_list:
@@ -28,9 +34,9 @@ def load_questions(file_path):
     for line in questions_list:
         parts = line.split(' $')  # Разделяем строку по символу '$'
 
-
         if len(parts) > 1:  # Убедимся, что строка содержит хотя бы один вариант ответа
-            question = parts[0].replace('$', '').strip()  # Извлекаем вопрос, удаляя лишние '$'
+            question = parts[0].replace('$',
+                                        '').strip()  # Извлекаем вопрос, удаляя лишние '$'
 
             # Найдем правильный ответ, который начинается с '$@'
             correct_answer = None
@@ -41,10 +47,13 @@ def load_questions(file_path):
                 part = part.strip()  # Убираем лишние пробелы
 
                 if part.startswith('@'):
-                    correct_answer = part[1:].strip()  # Убираем символ '@' у правильного ответа
-                    answers.append(correct_answer) # Добавление правильного ответа в список ответов
+                    correct_answer = part[
+                                     1:].strip()  # Убираем символ '@' у правильного ответа
+                    answers.append(
+                        correct_answer)  # Добавление правильного ответа в список ответов
                 else:
-                    answers.append(part.strip('-').strip('+'))  # Очищаем от лишних знаков
+                    answers.append(
+                        part.strip('-').strip('+'))  # Очищаем от лишних знаков
 
             # Проверка на наличие правильного ответа
             if correct_answer is None:
@@ -58,6 +67,7 @@ def load_questions(file_path):
             })
 
     return questions
+
 
 def ask_question(question_data):
     """
@@ -74,12 +84,13 @@ def ask_question(question_data):
     return question_data['answers'][user_answer - 1] == question_data[
         'correct_answer']
 
-def run_quiz(file_path):
+
+def run_quiz(file):
     """
     Запускает викторину, загружает вопросы из файла, задает их пользователю,
     проверяет ответы и подсчитывает количество правильных.
     """
-    questions = load_questions(file_path)
+    questions = load_questions(file)
     correct_answers = 0
 
     if not questions:
@@ -93,10 +104,9 @@ def run_quiz(file_path):
         else:
             print("Неправильный ответ.")
 
-    print(f"Вы ответили правильно на {correct_answers} из {len(questions)} вопросов.")
+    print(
+        f"Вы ответили правильно на {correct_answers} из {len(questions)} вопросов.")
 
 
-# Путь к файлу с вопросами
-file_path = 'questions2.txt'
-
-run_quiz(file_path)
+if __name__ == '__main__':
+    run_quiz(FILE_PATH)
