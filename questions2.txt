@@ -1,0 +1,262 @@
+Какое значение будет возвращено выражением `True and False`? $True $False $@False $None
+Как проверить, является ли строка пустой в Python? $if len(my_string) == 0: $if my_string == "" $if not my_string: $@if not my_string:
+Как проверить, является ли объект числом с плавающей точкой? $isinstance(x, int) $@isinstance(x, float) $type(x) == "float" $x is float
+Как изменить регистр первого символа строки в верхний? $@my_string.capitalize() $my_string.upper() $my_string.title() $my_string.lower()
+Как вызвать метод для работы с файлом, если файл открыт в режиме чтения? $file.open() $@file.read() $file.write() $file.close()
+Как вывести все элементы множества на экран в Python? $for item in my_set: print(item) $@print(*my_set) $print(list(my_set)) $print(my_set)
+Что будет выведено при выполнении `print(len([1, 2, 3]))`? $2 $@3 $1 $None
+Какой оператор используется для объединения списков? $@+ $- $* $/
+Что возвращает метод `dict.get()`? $@Значение по ключу $Ключ $Параметры $Итерацию
+Как получить индекс элемента в списке? $@my_list.index(item) $my_list.index(item, 3) $my_list.find(item) $my_list.find(item, 3)
+Что выведет код `print([1, 2] * 3)`? $@`[1, 2, 1, 2, 1, 2]` $`[1, 1, 1]` $`[2, 2, 2]` $`[3, 3, 3]`
+Как определить длину множества? $@len(my_set) $length(my_set) $my_set.size() $my_set.length()
+Как проверить, существует ли ключ в словаре? $@if key in my_dict: $if my_dict.contains(key) $if my_dict.get(key) $if key.exists()
+Как добавить элемент в список? $@my_list.append(item) $my_list.add(item) $my_list.insert(0, item) $my_list.extend(item)
+Как отсортировать список? $@my_list.sort() $my_list.sorted() $my_list.order() $my_list.reorder()
+Как создать кортеж с одним элементом? $@tuple([item]) $item, $tuple(item) $tuple(item,)
+Как удалить элемент из множества? $my_set.remove(item) $@my_set.discard(item) $my_set.delete(item) $my_set.pop(item)
+Как объединить два множества? $@my_set.union(other_set) $my_set.add(other_set) $my_set.combine(other_set) $my_set.merge(other_set)
+Что будет выведено при выполнении `print(5 < 10 and 3 > 2)`? $@True $False $None $0
+Как перевести строку в верхний регистр? $@my_string.upper() $my_string.title() $my_string.capitalize() $my_string.lower()
+Как создать словарь с несколькими элементами? $@my_dict = {"key1": value1, "key2": value2} $my_dict = {"key1", "key2"} $my_dict = (key1: value1, key2: value2) $my_dict = [key1: value1, key2: value2]
+Как удалить ключ из словаря? $@del my_dict[key] $my_dict.remove(key) $my_dict.delete(key) $my_dict.pop(key)
+Как перебрать все элементы списка? $@for item in my_list: print(item) $my_list.forEach() $for each in my_list: print(each) $my_list.iterate()
+Как получить максимальное значение из списка? $@max(my_list) $my_list.max() $max(my_list) $my_list.max_value()
+Как создать пустой список? $@[] $list() $empty_list() $list_empty()
+Как извлечь подстроку из строки? $@my_string[2:5] $my_string.substring(2, 5) $my_string.slice(2, 5) $my_string.extract(2, 5)
+Как округлить число до 2 знаков после запятой? $@round(3.14159, 2) $round(3.14159) $int(3.14159) $float(3.14159)
+Как перевести строку в нижний регистр? $@my_string.lower() $my_string.capitalize() $my_string.title() $my_string.upper()
+Как получить количество элементов в словаре? $@len(my_dict) $my_dict.size() $my_dict.count() $my_dict.length()
+Как проверить, является ли переменная числом? $@isinstance(x, (int, float)) $x.is_number() $x.isdigit() $is_number(x)
+Как проверить, является ли переменная строкой? $@isinstance(x, str) $x.is_string() $type(x) == "string" $x.isalpha()
+Как отсортировать список по убыванию? $@my_list.sort(reverse=True) $my_list.reverse() $my_list.sort_desc() $my_list.sort(reverse=1)
+Как удалить последний элемент списка? $@my_list.pop() $my_list.remove() $my_list.delete() $my_list.drop()
+Что делает метод `str.strip()`? $@Удаляет пробелы в начале и в конце строки $Удаляет все пробелы $Удаляет только пробелы в конце строки $Удаляет все пробелы внутри строки
+Как проверить, является ли объект итерируемым? $@isinstance(x, Iterable) $is_iterable(x) $x.is_iterable() $x.iterable()
+Как изменить значение по ключу в словаре? $@my_dict[key] = new_value $my_dict.update(key, new_value) $my_dict.change(key, new_value) $my_dict.set(key, new_value)
+Как соединить несколько строк в одну? $@" ".join(list_of_strings) $", ".concat(list_of_strings) $" ".concatenate(list_of_strings) $list_of_strings.join()
+Как получить сумму всех чисел в списке? $@sum(my_list) $my_list.total() $my_list.sum() $sum_elements(my_list)
+Что будет выведено при выполнении `print("Hello, " + "world!")`? $@Hello, world! $Hello world $Hello, world $Hello world!
+Что возвращает метод `list.pop()`? $@Удаляет и возвращает последний элемент списка $Удаляет элемент из списка $Возвращает последний элемент без удаления $Возвращает первый элемент списка
+Как добавить элемент в конец множества? $@my_set.add(item) $my_set.append(item) $my_set.push(item) $my_set.insert(item)
+Как определить, является ли строка числом? $@str.isdigit() $str.isnumber() $str.isnumeric() $str.isnum()
+Как создать множество? $@my_set = {1, 2, 3} $my_set = [1, 2, 3] $my_set = set(1, 2, 3) $my_set = set([1, 2, 3])
+Как склеить два списка? $@my_list + other_list $my_list.append(other_list) $my_list.join(other_list) $my_list.combine(other_list)
+Как вызвать метод для чтения файла в Python? $@file.read() $file.open() $file.load() $file.get()
+Как проверить, является ли элемент списком? $@isinstance(my_list, list) $type(my_list) == "list" $my_list.is_list() $my_list.isinstance(list)
+Как удалить все элементы из списка? $@my_list.clear() $my_list.delete() $my_list.remove_all() $my_list.delete_all()
+Как проверить, является ли строка цифрой? $@str.isdigit() $str.isnumber() $str.isnumeric() $str.isdigit()
+Как объединить два словаря? $@dict1.update(dict2) $dict1.merge(dict2) $dict1.combine(dict2) $dict1.add(dict2)
+Как изменить порядок элементов в списке? $@my_list.reverse() $my_list.sort(reverse=True) $my_list.shuffle() $my_list.reorder()
+Как проверить, является ли строка числовым значением? $@str.replace(".", "").isdigit() $str.isnumeric() $str.isdigit() $str.isnumber()
+Что будет выведено при выполнении `print(True or False)`? $@True $False $None $0
+Как добавить элемент в конец списка? $@my_list.append(item) $my_list.add(item) $my_list.insert(item) $my_list.push(item)
+Как получить первый элемент списка? $@my_list[0] $my_list.first() $my_list[1] $my_list.get_first()
+Как удалить первый элемент списка? $@my_list.pop(0) $my_list.remove(0) $my_list.delete(0) $my_list.shift()
+Как вернуть элемент по индексу из списка? $@my_list[index] $my_list.get(index) $my_list.find(index) $my_list.getElement(index)
+Как получить разницу между двумя множествами? $@my_set.difference(other_set) $my_set.subtract(other_set) $my_set.diff(other_set) $my_set.except(other_set)
+Как создать список из строки? $@list(my_string) $split(my_string) $my_string.to_list() $string.split()
+Как добавить элемент в начало списка? $@my_list.insert(0, item) $my_list.add_first(item) $my_list.prepend(item) $my_list.push(item)
+Как проверить, является ли список пустым? $@if not my_list: $if my_list.is_empty(): $if len(my_list) == 0: $if my_list == []
+Как получить среднее значение списка чисел? $@sum(my_list) / len(my_list) $mean(my_list) $avg(my_list) $my_list.average()
+Как соединить несколько строк? $@" ".join(list_of_strings) $", ".concat(list_of_strings) $", ".join(list_of_strings) $list_of_strings.join()
+Как найти наибольшее значение в списке? $@max(my_list) $my_list.max() $my_list.find_max() $max_element(my_list)
+Как определить, является ли объект числом? $@isinstance(x, (int, float)) $isnumeric(x) $x.is_number() $x.is_float()
+Как добавить элемент в множество? $@my_set.add(item) $my_set.append(item) $my_set.push(item) $my_set.insert(item)
+Как изменить элемент в строке? $@my_string.replace(old, new) $my_string.update(old, new) $my_string.modify(old, new) $my_string.set(old, new)
+Как перевести строку в список? $@my_string.split() $list(my_string) $my_string.to_list() $my_string.parse()
+Как найти индекс элемента в строке? $@my_string.index(substring) $my_string.find(substring) $my_string.search(substring) $my_string.locate(substring)
+Как разделить строку на подстроки? $@my_string.split() $my_string.split(" ") $my_string.partition(" ") $my_string.slice(" ")
+Как получить уникальные элементы из списка? $@list(set(my_list)) $my_list.unique() $set(my_list) $my_list.deduplicate()
+Как проверить, является ли строка пустой? $@if not my_string: $if my_string == "" $if len(my_string) == 0 $if my_string.is_empty()
+Как получить среднее арифметическое чисел в списке? $@sum(my_list) / len(my_list) $average(my_list) $mean(my_list) $my_list.mean()
+Как удалить элемент из списка по индексу? $@my_list.pop(index) $my_list.remove(index) $my_list.delete(index) $my_list.shift(index)
+Как создать список из диапазона чисел от 0 до 9? $@list(range(10)) $range(10).tolist() $range(0, 10) $list(range(0, 10))
+Как преобразовать строку в список символов? $@list(my_string) $my_string.split() $my_string.to_list() $my_string.characters()
+Что возвращает метод `set.pop()`? $@Удаляет и возвращает произвольный элемент множества $Удаляет и возвращает первый элемент множества $Удаляет и возвращает последний элемент множества $Возвращает первый элемент множества
+Как удалить элемент из списка по значению? $@my_list.remove(item) $my_list.delete(item) $my_list.pop(item) $my_list.remove_at(item)
+Как преобразовать строку в число? $@int(my_string) $float(my_string) $str(my_string) $to_number(my_string)
+Как определить, является ли переменная списком? $@isinstance(my_list, list) $type(my_list) == "list" $my_list.is_list() $my_list.instanceof(list)
+Как соединить два списка в один? $@my_list + another_list $my_list.concat(another_list) $my_list.extend(another_list) $my_list.combine(another_list)
+Как получить последний элемент списка? $@my_list[-1] $my_list.last() $my_list.get_last() $my_list.pop(-1)
+Как добавить элемент в множество, если он еще не существует? $@my_set.add(item) $my_set.insert(item) $my_set.push(item) $my_set.append(item)
+Как проверить, является ли объект строкой? $@isinstance(x, str) $type(x) == "str" $x.is_string() $x.type() == "string"
+Как получить количество всех вхождений элемента в списке? $@my_list.count(item) $my_list.contains(item) $my_list.frequency(item) $my_list.find(item)
+Как получить подстроку строки? $@my_string[start:end] $my_string.sub(start, end) $my_string.extract(start, end) $my_string.slice(start, end)
+Что возвращает метод `list.insert()`? $@Добавляет элемент в список в указанную позицию $Удаляет элемент из списка в указанной позиции $Вставляет элемент в конец списка $Добавляет элемент в начало списка
+Как удалить все элементы из множества? $@my_set.clear() $my_set.delete_all() $my_set.remove_all() $my_set.empty()
+Как создать множество из строки? $@set(my_string) $my_string.to_set() $my_string.split_to_set() $set_of_string(my_string)
+Как вернуть элементы множества в виде отсортированного списка? $@sorted(my_set) $my_set.sort() $my_set.sorted() $my_set.to_list()
+Что вернет выражение `my_list[::2]`? $@Элементы списка, начиная с первого через один $Элементы списка начиная с второго через два $Элементы списка с шагом 2 $Элементы списка начиная с последнего через два
+Как создать копию списка? $@my_list.copy() $my_list.duplicate() $my_list.clone() $list(my_list)
+Что будет выведено при выполнении кода `print([i for i in range(5)])`? $@`[0, 1, 2, 3, 4]` $`[1, 2, 3, 4, 5]` $`[0, 1, 2, 3]` $`[1, 2, 3]`
+Как добавить несколько элементов в список? $@my_list.extend(another_list) $my_list.append_all(another_list) $my_list.insert(another_list) $my_list.add_all(another_list)
+Как создать строку из списка символов? $@''.join(my_list) $my_list.join() $my_list.to_string() $my_list.concatenate()
+Как создать пустое множество? $@my_set = set() $my_set = {} $my_set = [] $my_set = set([])
+Что будет выведено при выполнении `print(0 or 1)`? $@1 $0 $None $False
+Как объединить два словаря? $@dict1.update(dict2) $dict1.merge(dict2) $dict1.combine(dict2) $dict1.add(dict2)
+Как проверить, является ли объект числом с плавающей точкой? $@isinstance(x, float) $type(x) == "float" $x.is_float() $x.isdigit()
+Как получить первые 3 элемента списка? $@my_list[:3] $my_list.first(3) $my_list.head(3) $my_list[0:3]
+Что вернет выражение `my_dict.get('key', 'default')`? $@Значение по ключу 'key', если нет — 'default' $Значение по ключу 'key' $Ключ 'key' или 'default' $Возвращает ключ 'key'
+Как проверить, является ли строка числом с плавающей точкой? $@str.replace('.', '', 1).isdigit() $str.isnumeric() $str.isdigit() $str.isfloat()
+Как найти минимальное значение в списке? $@min(my_list) $my_list.min() $my_list.find_min() $my_list.smallest()
+Как проверить, является ли строка в верхнем регистре? $@my_string.isupper() $my_string.uppercase() $my_string.isCapitalized() $my_string.to_upper()
+Как удалить все элементы из списка, кроме первого? $@my_list = [my_list[0]] $my_list.remove_range(1, len(my_list)) $my_list.delete_range(1, len(my_list)) $my_list.clear_except_first()
+Как создать строку из списка чисел? $@''.join(map(str, my_list)) $str(map(str, my_list)) $string.join(my_list) $list(map(str, my_list))
+Как перебрать элементы множества? $@for item in my_set: print(item) $my_set.foreach(print) $for each in my_set: print(each) $my_set.iterate(print)
+Как изменить все элементы списка в верхний регистр? $@my_list = [item.upper() for item in my_list] $my_list.upper() $my_list.capitalize() $my_list.to_upper()
+Как проверить, является ли объект пустым множеством? $@if len(my_set) == 0: $if my_set.is_empty(): $if my_set == {} $if my_set == set()
+Как найти длину строки? $@len(my_string) $my_string.size() $my_string.length() $my_string.count()
+Что возвращает метод `str.find()`? $@Индекс первого вхождения подстроки в строку $Индекс последнего вхождения подстроки в строку $Позицию подстроки $True, если подстрока найдена
+Как использовать генератор списка для создания списка квадратов чисел? $@[i**2 for i in range(5)] $[i * i for i in range(5)] $[i^2 for i in range(5)] $range(5).map(i**2)
+Что будет выведено при выполнении `print('abc' > 'abd')`? $@False $True $None $Error
+Как преобразовать строку в кортеж? $@tuple(my_string) $list(my_string) $set(my_string) $my_string.to_tuple()
+Как вычислить остаток от деления? $@x % y $x / y $x // y $x ^ y
+Как преобразовать строку в верхний регистр для всех символов? $@my_string.upper() $my_string.capitalize() $my_string.title() $my_string.to_upper()
+Как проверить, является ли строка числом? $@my_string.isdigit() $my_string.isnumeric() $my_string.isfloat() $my_string.isint()
+Как получить словарь из списка кортежей? $@dict(my_list) $list(my_list) $tuple(my_list) $dict_from_list(my_list)
+Как получить список чисел от 1 до 10? $@list(range(1, 11)) $range(1, 11) $list(1, 11) $range(10)
+Как создать пустой кортеж? $@() $tuple() $[] $set()
+Как получить значение по индексу в словаре? $@my_dict.get(key) $my_dict[key] $my_dict.get_item(key) $my_dict.get_value(key)
+Как преобразовать строку в число с плавающей точкой? $@float(my_string) $int(my_string) $str(my_string) $decimal(my_string)
+Как удалить элемент из множества? $@my_set.remove(item) $my_set.pop(item) $my_set.delete(item) $my_set.clear(item)
+Что делает метод `list.sort()`? $@Сортирует список на месте $Создает новый отсортированный список $Сортирует список и возвращает его $Возвращает отсортированную копию списка
+Как получить ключи из словаря? $@my_dict.keys() $my_dict.get_keys() $my_dict.keys_list() $my_dict.all_keys()
+Как найти индекс максимального элемента в списке? $@my_list.index(max(my_list)) $my_list.index(item) $max(my_list) $my_list.max_index()
+Что будет выведено при выполнении `print(10 % 3)`? $@1 $3 $2 $None
+Как объединить два кортежа? $@tuple1 + tuple2 $tuple1.merge(tuple2) $tuple1.append(tuple2) $tuple1.concat(tuple2)
+Как проверить, является ли строка цифрой с плавающей точкой? $@my_string.replace('.', '', 1).isdigit() $my_string.isfloat() $my_string.isnumeric() $my_string.isdecimal()
+Как перебрать элементы строки? $@for char in my_string: print(char) $for char in my_string.iterate(): print(char) $my_string.forEach(print) $my_string.iterate(print)
+Как добавить ключ и значение в словарь? $@my_dict[key] = value $my_dict.add(key, value) $my_dict.insert(key, value) $my_dict.append(key, value)
+Что вернет метод `list.extend()`? $@Добавляет элементы другого списка в текущий $Создает новый список с элементами двух списков $Удаляет все элементы из текущего списка $Возвращает новый отсортированный список
+Как создать копию множества? $@my_set.copy() $set(my_set) $my_set.duplicate() $my_set.clone()
+Как найти наименьший элемент в списке? $@min(my_list) $my_list.min() $my_list.find_min() $my_list.lowest()
+Что будет выведено при выполнении `print("hello".upper())`? $@HELLO $hello $Hello $HELLO!
+Как создать новый словарь из списка пар (ключ, значение)? $@dict(list_of_tuples) $list_of_tuples.to_dict() $dict_from_list(list_of_tuples) $dict_from_pairs(list_of_tuples)
+Что будет выведено при выполнении `print(len(""))`? $@0 $1 $None $Empty
+Как получить список всех значений словаря? $@my_dict.values() $my_dict.get_values() $my_dict.items() $my_dict.all_values()
+Как сделать строку первой буквой в верхнем регистре? $@my_string.capitalize() $my_string.title() $my_string.upper() $my_string.first_upper()
+Как объединить два списка без изменений оригиналов? $@my_list + another_list $my_list.append(another_list) $my_list.concat(another_list) $my_list.extend_copy(another_list)
+Как проверить, пустое ли множество? $@if len(my_set) == 0: $if my_set.is_empty(): $if my_set == set() $if my_set == {}
+Что будет выведено при выполнении `print(3 * 2)`? $@6 $5 $7 $9
+Как изменить порядок элементов в списке? $@my_list.reverse() $my_list.shuffle() $my_list.sort(reverse=True) $my_list.reorder()
+Как получить индекс элемента в строке? $@my_string.index(substring) $my_string.find(substring) $my_string.locate(substring) $my_string.search(substring)
+Как проверить, является ли строка состоящей только из цифр? $@my_string.isdigit() $my_string.isnumeric() $my_string.isfloat() $my_string.isdigit_only()
+Как сделать строку из списка с разделителем? $@" ".join(my_list) $my_list.join(" ") $list.join(my_list, " ") $my_string.concatenate(" ")
+Что возвращает метод `str.split()`? $@Список строк, разделенных по заданному разделителю $Строку, разделенную на части $Список символов строки $Массив частей строки
+Как соединить несколько строк в одну? $@" ".join(my_strings) $", ".concat(my_strings) $my_strings.join() $my_strings.concatenate()
+Как получить количество уникальных элементов в списке? $@len(set(my_list)) $my_list.unique_count() $my_list.count_unique() $my_list.distinct_count()
+Как сделать из строки список слов? $@my_string.split() $my_string.split(" ") $my_string.to_list() $my_string.words()
+Как удалить последний символ в строке? $@my_string[:-1] $my_string.remove(-1) $my_string.cut_last() $my_string.slice(0, -1)
+Как создать множество из списка? $@set(my_list) $list_to_set(my_list) $my_list.to_set() $set_from_list(my_list)
+Как проверить, является ли объект строкой? $@isinstance(my_string, str) $type(my_string) == "string" $my_string.is_string() $my_string.instanceof(str)
+Как создать список из множества? $@list(my_set) $my_set.to_list() $set.to_list(my_set) $my_set.listify()
+Как найти первое вхождение элемента в списке? $@my_list.index(item) $my_list.find(item) $my_list.search(item) $my_list.locate(item)
+Что возвращает метод `str.replace()`? $@Возвращает новую строку с заменой $Заменяет символы в строке $Возвращает строку с удаленными символами $Возвращает строку с добавленными символами
+Как удалить элемент из списка по индексу? $@my_list.pop(index) $my_list.remove(index) $my_list.delete(index) $my_list.shift(index)
+Как получить элементы списка с шагом 2? $@my_list[::2] $my_list.step(2) $my_list[1::2] $my_list.slice(2)
+Что будет выведено при выполнении `print("abc" > "abcd")`? $@False $True $None $Error
+Как перевести строку в список слов? $@my_string.split() $my_string.split(" ") $my_string.to_words() $my_string.words()
+Как объединить два множества? $@my_set.union(other_set) $my_set.combine(other_set) $my_set.merge(other_set) $my_set.add_all(other_set)
+Что будет выведено при выполнении `print('123'.isdigit())`? $@True $False $None $Error
+Как сделать копию списка? $@my_list.copy() $list(my_list) $my_list.clone() $my_list.duplicate()
+Как создать словарь из двух списков? $@dict(zip(keys, values)) $list(zip(keys, values)) $dict(keys, values) $dict.fromkeys(keys, values)
+Как изменить значение в словаре? $@my_dict[key] = new_value $my_dict.update(key, new_value) $my_dict.add(key, new_value) $my_dict.replace(key, new_value)
+Что вернет `len([])`? $@0 $1 $None $Empty
+Как объединить несколько строк в одну? $@"".join(my_strings) $",".concat(my_strings) $my_strings.join() $my_strings.concatenate()
+Как удалить последний элемент из списка? $@my_list.pop() $my_list.remove_last() $my_list.delete() $my_list.shift()
+Как проверить, является ли объект множеством? $@isinstance(my_set, set) $type(my_set) == "set" $my_set.is_set() $my_set instanceof set
+Как добавить элемент в кортеж? $@Кортежи неизменяемы $tuple.append(item) $tuple.add(item) $tuple.insert(0, item)
+Как вернуть первое вхождение элемента в списке? $@my_list.index(item) $my_list.find(item) $my_list.search(item) $my_list.locate(item)
+Как удалить строку из списка? $@my_list.remove(my_string) $my_list.pop(my_string) $my_list.delete(my_string) $my_list.remove_at(my_string)
+Как отсортировать список по возрастанию? $@my_list.sort() $my_list.order() $my_list.sorted() $my_list.ascend()
+Что вернет выражение `bool([])`? $@False $True $None $Error
+Как найти остаток от деления? $@x % y $x // y $x / y $x ^ y
+Как конвертировать строку в нижний регистр? $@my_string.lower() $my_string.to_lower() $my_string.downcase() $my_string.lowercase()
+Как объединить два списка в новый? $@my_list + another_list $my_list.extend(another_list) $my_list.concat(another_list) $my_list.add(another_list)
+Как создать строку, состоящую из повторяющегося символа? $@str * n $repeat(str, n) $str.repeat(n) $n * str
+Как проверить, является ли строка пустой? $@if not my_string: $if my_string == "" $if len(my_string) == 0 $if my_string.is_empty()
+Как проверить, что строка является числом? $@my_string.isdigit() $my_string.isnumeric() $my_string.isfloat() $my_string.isinteger()
+Как вычислить среднее значение чисел в списке? $@sum(my_list) / len(my_list) $my_list.mean() $mean(my_list) $avg(my_list)
+Как вернуть элементы списка от индекса до конца? $@my_list[start:] $my_list[start:end] $my_list.slice(start) $my_list.cut(start)
+Как перевести строку в целое число? $@int(my_string) $float(my_string) $str(my_string) $decimal(my_string)
+Как получить уникальные элементы из списка? $@set(my_list) $my_list.unique() $list(set(my_list)) $my_list.distinct()
+Как определить, пустой ли список? $@if not my_list: $if len(my_list) == 0: $if my_list == [] $if my_list.is_empty()
+Как перебрать элементы множества? $@for item in my_set: print(item) $my_set.foreach(print) $for each in my_set: print(each) $my_set.iterate(print)
+Как добавить все элементы из другого списка в существующий? $@my_list.extend(another_list) $my_list.append_all(another_list) $my_list.add_all(another_list) $my_list.concat(another_list)
+Что вернет выражение `my_dict.get("key", "default")`? $@Значение по ключу "key", если оно есть, иначе "default" $Значение по ключу "key" или None $Ключ "key" или "default" $Возвращает "key"
+Как конвертировать строку в список слов? $@my_string.split() $my_string.split(" ") $my_string.to_words() $my_string.words()
+Как изменить все элементы списка на их квадрат? $@my_list = [item**2 for item in my_list] $my_list.map(item**2) $my_list.apply(lambda item: item**2) $my_list.square_all()
+Как добавить элемент в начало списка? $@my_list.insert(0, item) $my_list.prepend(item) $my_list.add_first(item) $my_list.push(item)
+Как найти максимальное значение в списке? $@max(my_list) $my_list.max() $my_list.find_max() $my_list.largest()
+Что будет выведено при выполнении `print(1 + 1)`? $@2 $3 $1 $None
+Как получить элементы из словаря по ключам? $@my_dict.get(key) $my_dict.values() $my_dict.get_items() $my_dict.keys()
+Как удалить все элементы из списка? $@my_list.clear() $my_list.remove_all() $my_list.delete_all() $my_list.reset()
+Как создать пустое множество? $@my_set = set() $my_set = {} $my_set = [] $my_set = set([])
+Как получить длину строки? $@len(my_string) $my_string.size() $my_string.length() $my_string.count()
+Как удалить элемент из словаря? $@del my_dict[key] $my_dict.remove(key) $my_dict.delete(key) $my_dict.pop(key)
+Как найти индекс минимального элемента в списке? $@my_list.index(min(my_list)) $my_list.find_min() $my_list.lowest() $min(my_list)
+Что будет выведено при выполнении `print("123".isnumeric())`? $@True $False $None $Error
+Как объединить два множества? $@my_set.union(other_set) $my_set.combine(other_set) $my_set.merge(other_set) $my_set.add_all(other_set)
+Как заменить все вхождения подстроки в строке? $@my_string.replace(old, new) $my_string.update(old, new) $my_string.modify(old, new) $my_string.change(old, new)
+Как получить уникальные элементы из множества? $@set(my_list) $my_list.unique() $list(set(my_list)) $my_list.distinct()
+Как создать пустой список? $@[] $list() $empty_list() $my_list.empty()
+Как проверить, является ли объект строкой? $@isinstance(my_string, str) $type(my_string) == "str" $my_string.is_string() $my_string.type() == "string"
+Как получить срез списка? $@my_list[start:end] $my_list.slice(start, end) $my_list.get_slice(start, end) $my_list.cut(start, end)
+Что будет выведено при выполнении `print("hello"[::-1])`? $@olleh $hello $ehll $Error
+Как объявить переменную в Python? $@x = 5 $5 = x $var : 5 $let x = 5
+Как создать строку в Python? $@"строка" или 'строка' $string() $str() $String()
+Как получить остаток от деления в Python? $@x % y $x // y $x / y $x ^ y
+Как создать список из чисел от 0 до 9? $@list(range(10)) $range(10) $list(0, 9) $range(10).tolist()
+Что такое глобальная переменная? $@Переменная, доступная во всей программе $Переменная, доступная только в функции $Переменная, доступная только в классе $Переменная, доступная в одном блоке кода
+Что будет выведено в результате выполнения кода `print(2 ** 3)`? $@8 $6 $5 $None
+Как создать пустой словарь? $@my_dict = {} $my_dict = set() $my_dict = [] $my_dict = dict()
+Как объявить многоточие в Python? $@Ellipsis $... $None $Null
+Что будет выведено при выполнении `print("abc"[1])`? $@b $a $c $None
+Что делает ключевое слово `pass`? $@Ничего не делает $Переводит выполнение программы на следующую строку $Завершается выполнение функции $Останавливает выполнение цикла
+Как объединить два списка? $@list1 + list2 $list1.append(list2) $list1.merge(list2) $list1.concat(list2)
+Как создать кортеж с элементами 1, 2, 3? $@(1, 2, 3) $1, 2, 3 $tuple(1, 2, 3) $tuple([1, 2, 3])
+Как поймать исключение в Python? $@try: ... except: ... $catch: ... $error: ... $handle: ...
+Что будет выведено при выполнении `print(10 / 0)`? $@ZeroDivisionError $None $Infinity $0
+Как создать собственное исключение? $@class MyError(Exception): pass $raise MyError() $try: MyError() $error MyError()
+Что делает инструкция `finally`? $@Гарантирует выполнение кода после блока try $Выходит из цикла $Перехватывает исключения $Возвращает результат функции
+Что будет выведено при выполнении кода `print(5 + "string")`? $@TypeError $ValueError $ZeroDivisionError $None
+Как сделать блок кода, который игнорирует ошибки? $@try: ... except Exception: pass $try: ... except: pass $try: pass $catch: pass
+Как вызвать исключение вручную? $@raise Exception("Message") $throw Exception("Message") $signal Exception("Message") $catch Exception("Message")
+Что возвращает `except` в блоке `try/except`? $@Обработанное исключение $Только сообщение об ошибке $Код, вызывающий исключение $Лог ошибок
+Как перехватить несколько типов исключений? $@except (TypeError, ValueError): $except TypeError, ValueError: $except TypeError | ValueError: $except (TypeError or ValueError):
+Что будет выведено при выполнении `print(10 / "string")`? $@TypeError $ValueError $ZeroDivisionError $None
+Как вывести трассировку стека при исключении? $@import traceback; traceback.print_exc() $import logging; logging.print_stack() $print(traceback()) $traceback.print_exception()
+Как обработать исключение без выхода из программы? $@try: ... except Exception: continue $try: ... except: pass $try: ... except Exception: break $try: ... except: exit()
+Как добавить элемент в конец списка? $@my_list.append(item) $my_list.insert(item) $my_list.push(item) $my_list.add(item)
+Как перевернуть список? $@my_list.reverse() $my_list.flip() $my_list.reverse_order() $my_list.invert()
+Как отсортировать список по убыванию? $@my_list.sort(reverse=True) $my_list.sort() $my_list.sort_descending() $my_list.descend()
+Как удалить элемент из списка по индексу? $@my_list.pop(index) $my_list.remove(index) $my_list.delete(index) $my_list.remove_at(index)
+Что такое очередь (queue)? $@Структура данных, где элементы добавляются с одного конца, а извлекаются с другого $Список, где элементы извлекаются в случайном порядке $Множество, где нет повторений $Строка с элементами
+Как получить индекс элемента в списке? $@my_list.index(item) $my_list.find(item) $my_list.position(item) $my_list.search(item)
+Как работает стек (stack)? $@Элементы добавляются и извлекаются с одного конца (LIFO) $Элементы извлекаются в случайном порядке $Элементы добавляются в произвольном порядке $Элементы добавляются и извлекаются по порядку
+Как проверить, существует ли ключ в словаре? $@key in my_dict $my_dict.contains(key) $my_dict.exists(key) $my_dict.search(key)
+Что вернет `sorted(my_list)`? $@Отсортированный список $Исходный список $Множество из списка $Кортеж из списка
+Как получить ключи в словаре? $@my_dict.keys() $my_dict.get_keys() $my_dict.items() $my_dict.all_keys()
+Что такое множества в Python? $@Неупорядоченные коллекции уникальных элементов $Упорядоченные коллекции уникальных элементов $Массивы $Списки с уникальными значениями
+Как добавить элементы в множество? $@my_set.add(item) $my_set.append(item) $my_set.push(item) $my_set.insert(item)
+Как открыть файл для чтения в Python? $@open("filename", "r") $open("filename") $file("filename", "r") $open("filename", "read")
+Как прочитать все строки из файла? $@file.readlines() $file.readlines() $file.all() $file.readlines_all()
+Как записать строку в файл? $@file.write("text") $file.append("text") $file.add("text") $file.insert("text")
+Как закрыть файл после работы с ним? $@file.close() $file.end() $file.stop() $file.finish()
+Что делает метод `with open()`? $@Открывает файл и автоматически закрывает его после выхода из блока $Открывает файл для редактирования $Открывает файл для записи $Открывает файл для чтения
+Как записать несколько строк в файл? $@file.writelines(lines) $file.write_multiple(lines) $file.write_list(lines) $file.add_lines(lines)
+Что будет выведено при выполнении кода `print(file.read(5))`? $@Первые 5 символов из файла $5 строк из файла $Ошибка $5 байт из файла
+Как проверить, существует ли файл? $@os.path.exists(filename) $os.file.exists(filename) $os.check(filename) $file.exists(filename)
+Как прочитать весь файл в строку? $@file.read() $file.readlines() $file.content() $file.get_all()
+Как открыть файл для добавления данных? $@open("filename", "a") $open("filename", "w") $open("filename", "r") $open("filename", "append")
+Что делает метод `os.remove()`? $@Удаляет файл $Удаляет директорию $Удаляет строку из файла $Удаляет директорию с файлами
+Как узнать размер файла? $@os.path.getsize(filename) $os.size(filename) $file.size() $file.length()
+Как создать тестовый класс в Python? $@class TestMyClass(unittest.TestCase): $class TestMyClass() $class unittest.TestCase $class MyTest(unittest.Test)
+Как проверить, что два значения равны в тесте? $@self.assertEqual(a, b) $self.assertSame(a, b) $self.assertMatch(a, b) $self.assertIdentical(a, b)
+Как запустить все тесты в модуле? $@unittest.main() $run_tests() $run_all_tests() $execute_tests()
+Как проверить, что исключение было вызвано в тесте? $@self.assertRaises(Exception) $self.assertThrows(Exception) $self.assertError(Exception) $self.assertException(Exception)
+Как проверить, что условие истинно в тесте? $@self.assertTrue(condition) $self.assertCondition(condition) $self.assertCheck(condition) $self.assertValid(condition)
+Как выполнить тест в случае успешного завершения? $@self.assertIsNone(value) $self.assertNotNull(value) $self.assertNull(value) $self.assertEmpty(value)
+Как выполнить асинхронный тест в Python? $@async def test_method(self): $def test_method(self): async $async def test_method(self) $test_method(self, async=True)
+Как проверять, что два значения не равны в тесте? $@self.assertNotEqual(a, b)
