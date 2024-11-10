@@ -17,7 +17,7 @@
 
 1. Скачайте или клонируйте репозиторий на ваш локальный компьютер:
    ```bash
-   git clone https://github.com/ваш_проект/knowledge-test.git
+   git clone https://github.com/Roma-Leto/KnowledgeTestApp.git
    ```
 
 2. Убедитесь, что у вас установлен Python версии 3.6 или выше. Вы можете скачать его с [официального сайта](https://www.python.org/downloads/).
