@@ -113,11 +113,14 @@ def run_quiz(file):
 
     order_number = 1
     for question_data in questions:
+        # Нумерация вопросов
+        print(f"Вопрос № {order_number} из {len(questions)}")
         if ask_question(question_data):
-            print("Правильный ответ!")
+            print("Правильный ответ! \n")
             correct_answers += 1
         else:
-            print("Неправильный ответ.")
+            print("Неправильный ответ. \n")
+        order_number += 1
 
     print(
         f"Вы ответили правильно на {correct_answers} из {len(questions)} вопросов.")
