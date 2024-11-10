@@ -4,7 +4,7 @@ Module main.py
 Модуль тестирования знаний. Загружает из файла вопросы с ответами в специальном
 формате и формирует тестовые вопросы с проверкой ответов.
 """
-import random
+from random import randint
 
 # Путь к файлу с вопросами
 FILE_PATH = 'questions2.txt'
@@ -103,6 +103,15 @@ def run_quiz(file):
         print("Вопросы не загружены. Проверьте файл.")
         return
 
+    # Ограничение по количеству вопросов
+    number_of_questions = int(input('Введите количество вопросов для теста: '))
+    # Первый вопрос это случайный от 0 до общего количества вопросов минус
+    # желаемое количество вопросов
+    start_question = randint(0, len(questions)-number_of_questions)
+    # Срез массива вопросов из общего списка
+    questions = questions[start_question:start_question + number_of_questions]
+
+    order_number = 1
     for question_data in questions:
         if ask_question(question_data):
             print("Правильный ответ!")
