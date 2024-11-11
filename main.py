@@ -5,6 +5,11 @@ Module main.py
 формате и формирует тестовые вопросы с проверкой ответов.
 """
 from random import randint
+from reportlab.pdfgen import canvas  # Для формирования PDF-файлов
+from reportlab.lib.pagesizes import letter
+from reportlab.pdfbase.ttfonts import TTFont
+from reportlab.pdfbase import pdfmetrics
+
 
 # Путь к файлу с вопросами
 FILE_PATH = 'questions2.txt'
@@ -123,7 +128,34 @@ def run_quiz(file):
         order_number += 1
 
     print(
-        f"Вы ответили правильно на {correct_answers} из {len(questions)} вопросов.")
+        f"Вы ответили правильно на {correct_answers} из {len(questions)} "
+        f"вопросов. {(correct_answers/len(questions)*100):.1f}%")
+
+    pdf_task = input("Выгрузить файл pdf с результатом тестирования? (д/н)")
+    yes_list = ['да', 'д', 'yes', 'y']
+    if pdf_task.lower() in yes_list:
+        #region Блок формирования pdf-отчёта.
+        # Создаём объект canvas
+        pdf_file = "output.pdf"
+        c = canvas.Canvas(pdf_file, pagesize=letter)
+
+        # Регистрируем шрифт OTF
+        pdfmetrics.registerFont(
+            TTFont('CaviarDreams', 'caviar-dreams.ttf'))
+
+        # Устанавливаем шрифт и размер текста
+        c.setFont("CaviarDreams", 14)
+
+        # Добавляем текст на страницу (x, y) — это координаты на странице
+        c.drawString(100, 750, f"Вы ответили правильно на "
+                               f"{correct_answers} из {len(questions)} вопросов. "
+                               f"{(correct_answers/len(questions)*100):.1f}%")
+
+        # Сохраняем PDF
+        c.save()
+        #endregion
+
+    print("Завершение тестирования.")
 
 
 if __name__ == '__main__':
